@@ -1,4 +1,7 @@
-# Makoto P. Kato
+---
+title: "Makoto P. Kato"
+date: 2019-03-10T11:51:55+09:00
+---
 
 I'm a senior lecturer in Kyoto University, Japan. 
 My research interests include Information Retrieval, Web Mining, and Machine Learning.
