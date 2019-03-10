@@ -1,0 +1,32 @@
+---
+title: "Researches"
+date: 2019-03-10T11:51:55+09:00
+---
+
+## Data and Tools
+[Visit "Data and Tools" page](/data/)
+
+## Topics
+
+### Data Search (2018 - )
+
+### Information Need Elicitation (2013 - )
+ 
+
+### Search as If You Were in Your Hometown (2010 - 2012)
+{{< figure src="/images/MapAnalogySearch.png" class="rounded float-right" width="400" >}}
+
+We propose a query-by-example geographic object search method for users that do not know well about the place they are in. Geographic objects, such as restaurants, are often retrieved using an attribute-based or keyword query. These queries, however, are difficult to use for users that have little knowledge on the place where they want to search. The proposed query-by-example method allows users to query by selecting examples in familiar places for retrieving objects in unfamiliar places. One of the challenges is to predict an effective distance metric, which varies for individuals. Another challenge is to calculate the distance between objects in heterogeneous domains considering the feature gap between them, for example, restaurants in Japan and China. Our proposed method is used to robustly estimate the distance metric by amplifying the difference between selected and non-selected examples. By using the distance metric, each object in a familiar domain is evenly assigned to one in an unfamiliar domain to eliminate the difference between those domains. We developed a restaurant search using data obtained from a Japanese restaurant Web guide to evaluate our method.
+
+### RhythMiXearch (2009)
+{{< figure src="/images/rhythmixearch.jpg" class="rounded float-right" width="400" >}}
+We present a novel method for searching for unknown music. RhythMiXearch is a music search system we developed that can accept two music inputs and mix those inputs to search for music that could reasonably be a result of the mixture. This approach expands the ability of Query-by-Example and allows greater flexibility for users in finding unknown music. Each music piece stored by our system is characterized by text data written by users, i.e., review data. We used Latent Dirichlet Allocation (LDA) to capture semantics from the reviews that were then used to characterize the music by Hevner’s eight impression categories. RhythMiXearch mixes two music inputs in accordance with a probabilistic mixture model and finds music that is the most likely product of the mixture. Our experimental results indicate that the proposed method is comparable to human in searching for music by multiple examples.
+
+### Query by Analogical Example (2009)
+{{< figure src="/images/ProportionalAnalogySearch.png" class="rounded float-right" width="400" >}}
+We describe methods to search with a query by example in a known domain for information in an unknown domain by exploiting Web search engines. Relational search is an effective way to obtain information in an unknown field for users. For example, if an Apple user searches for Microsoft products, similar Apple products are important clues for the search. Even if the user does not know keywords to search for specific Microsoft products, the relational search returns a product name by querying simply an example of Apple products. More specifically, given a tuple containing three terms, such as (Apple, iPod, Microsoft), the term Zune can be extracted from the Web search results, where Apple is to iPod what Microsoft is to Zune. As a previously proposed relational search requires a huge text corpus to be downloaded from the Web, the results are not up-to-date and the corpus has a high construction cost. We introduce methods for relational search by using Web search indices. We consider methods based on term co-occurrence, on lexico-syntactic patterns, and on combinations of the two approaches. Our experimental results showed that the combination methods got the highest precision, and clarified the characteristics of the methods.
+
+### Improving Web Image Search by Using Social Tags (2008)
+{{< figure src="/images/spring_and_cute.jpg" class="rounded float-right" width="400" >}}
+
+Conventional Web image search engines can return reasonably accurate results for queries containing concrete terms, but the results are less accurate for queries containing only abstract terms, such as “spring” or “peace.” To improve the recall ratio without drastically degrading the precision ratio, we developed a method that replaces an abstract query term given by a user with a set of concrete terms and that uses these terms in queries input into Web image search engines. Concrete terms are found for a given abstract term by making use of social tagging information extracted from a social photo sharing system, such as Flickr. This information is rich in user impressions about the objects in the images. The extraction and replacement are done by (1) collecting social tags that include the abstract term, (2) clustering the tags in accordance with the term co-occurrence of images, (3) selecting concrete terms from the clusters by using WordNet, and (4) identifying sets of concrete terms that are associated with the target abstract term by using a technique for association rule mining. Experimental results show that our method improves the recall ratio of Web image searches.

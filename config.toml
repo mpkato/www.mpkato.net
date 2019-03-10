@@ -1,0 +1,44 @@
+baseURL = "https://www.mpkato.net/"
+languageCode = "en-us"
+hasCJKLanguage = true
+metaDataFormat = "yaml"
+title = "Makoto P. Kato"
+theme = "hugo-bootstrap"
+
+[blackfriday]
+   hrefTargetBlank = true
+
+[languages.en]
+  languageName = "English"
+  copyright = "Makoto P. Kato"
+
+  [[languages.en.menu.main]]
+    url = "/researches/"
+    name = "Researches"
+    weight = 1
+  [[languages.en.menu.main]]
+    url = "/publications/"
+    name = "Publications"
+    weight = 2
+  [[languages.en.menu.main]]
+    url = "/activities/"
+    name = "Activities"
+    weight = 3
+
+[languages.ja]
+  languageName = "日本語"
+  title = "加藤 誠 (Makoto P. Kato)"
+  copyright = "Makoto P. Kato"
+
+  [[languages.ja.menu.main]]
+    url = "/researches/"
+    name = "研究"
+    weight = 1
+  [[languages.ja.menu.main]]
+    url = "/publications/"
+    name = "業績"
+    weight = 2
+  [[languages.ja.menu.main]]
+    url = "/activities/"
+    name = "活動"
+    weight = 3
