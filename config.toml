@@ -24,6 +24,10 @@ theme = "hugo-bootstrap"
     url = "/activities/"
     name = "Activities"
     weight = 3
+  [[languages.en.menu.main]]
+    url = "/ja/"
+    name = "日本語"
+    weight = 4
 
 [languages.ja]
   languageName = "日本語"
