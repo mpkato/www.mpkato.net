@@ -47,6 +47,6 @@ theme = "hugo-bootstrap"
     name = "活動"
     weight = 3
   [[languages.ja.menu.main]]
-    url = "https://www.mpkato.net/"
+    url = "https://www.mpkato.net"
     name = "English"
     weight = 4
