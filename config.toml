@@ -2,16 +2,20 @@ baseURL = "https://www.mpkato.net/"
 languageCode = "en-us"
 hasCJKLanguage = true
 metaDataFormat = "yaml"
-title = "Makoto P. Kato"
 theme = "hugo-bootstrap"
 googleAnalytics = "UA-25007161-1"
+
+[params]
+  images = ["/images/mpkato.jpg"]
 
 [blackfriday]
    hrefTargetBlank = true
 
 [languages.en]
   languageName = "English"
-  copyright = "Makoto P. Kato"
+  title = "Makoto P. Kato"
+  copyright = " "
+  description = "I'm a senior lecturer in Kyoto University, Japan. My research interests include Information Retrieval, Web Mining, and Machine Learning."
 
   [[languages.en.menu.main]]
     url = "/researches/"
@@ -25,15 +29,12 @@ googleAnalytics = "UA-25007161-1"
     url = "/activities/"
     name = "Activities"
     weight = 3
-  [[languages.en.menu.main]]
-    url = "/ja/"
-    name = "日本語"
-    weight = 4
 
 [languages.ja]
   languageName = "日本語"
   title = "加藤 誠 (Makoto P. Kato)"
-  copyright = "Makoto P. Kato"
+  copyright = " "
+  description = "京都大学の特定講師です．情報検索，Webマイニング，機械学習に興味があります．"
 
   [[languages.ja.menu.main]]
     url = "/researches/"
@@ -47,7 +48,3 @@ googleAnalytics = "UA-25007161-1"
     url = "/activities/"
     name = "活動"
     weight = 3
-  [[languages.ja.menu.main]]
-    url = "https://www.mpkato.net"
-    name = "English"
-    weight = 4
