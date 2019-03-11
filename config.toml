@@ -4,6 +4,7 @@ hasCJKLanguage = true
 metaDataFormat = "yaml"
 title = "Makoto P. Kato"
 theme = "hugo-bootstrap"
+googleAnalytics = "UA-25007161-1"
 
 [blackfriday]
    hrefTargetBlank = true
