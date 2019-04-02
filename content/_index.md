@@ -3,15 +3,16 @@ title: "Makoto P. Kato"
 date: 2019-03-10T11:51:55+09:00
 ---
 
-I'm a senior lecturer in Kyoto University, Japan. 
+I'm an associate professor in University of Tsukuba, Japan. 
 My research interests include Information Retrieval, Web Mining, and Machine Learning.
 
 ## Affiliation
-- **Senior Lecturer**: Institute for Liberal Arts and Sciences, Kyoto University.
+- **Associate Professor**: Faculty of Library, Information and Media Science, University of Tsukuba.
 
 ## Employment
+- Apr 2019 - : **Associate Professor** (Faculty of Library, Information and Media Science, University of Tsukuba)
 - Oct 2018 - : **PRESTO Research Fellow** (Japan Science and Technology Agency)
-- Aug 2017 - : **Senior Lecturer** (Institute for Liberal Arts and Sciences, Kyoto University)
+- Aug 2017 - Mar 2019: **Senior Lecturer** (Institute for Liberal Arts and Sciences, Kyoto University)
 - Oct 2012 – Jul 2017: **Assistant Professor** (Graduate School of Informatics, Kyoto University)
 - Jun 2011 – Sep 2011: **Microsoft Research Internship** (under supervision by Dr. Susan Dumais in CLUES group)
 - Dec 2010 – Feb 2011: **Microsoft Research Asia Internship** (under supervision by Dr. Tetsuya Sakai in WSM group)
@@ -30,6 +31,5 @@ My research interests include Information Retrieval, Web Mining, and Machine Lea
 (Makoto Kato, Hiroaki Ohshima, Satoshi Oyama, and Katsumi Tanaka: Can Social Tagging Improve Web Image Search?)
 
 ## Contact
-- Address: Yoshida Honmachi, Sakyo, Kyoto 606-8501, Japan
-- Tel: +81-75-753-5959
-- E-mail: mpkato at-mark acm.org
+- Address: 7D 308, 1-2, Kasuga, Tsukuba, Ibaraki, 305-8550, Japan
+- E-mail: mpkato at-mark slis.tsukuba.ac.jp

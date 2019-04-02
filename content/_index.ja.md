@@ -3,10 +3,10 @@ title: "加藤 誠 (Makoto P. Kato)"
 date: 2019-03-10T11:51:55+09:00
 ---
 
-京都大学の特定講師です．情報検索，Webマイニング，機械学習に興味があります．
+筑波大学の准教授です．情報検索，Webマイニング，機械学習に興味があります．
 
 ## 所属
-- 京都大学 国際高等教育院 附属データ科学イノベーション教育研究センター
+- 筑波大学 図書館情報メディア系
 
 ## 所属学会
 - ACM
@@ -15,9 +15,11 @@ date: 2019-03-10T11:51:55+09:00
 - 人工知能学会
 
 ## 職歴
+- 2019年4月～： 
+筑波大学 図書館情報メディア系 准教授
 - 2018年10月～： 
 JST さきがけ研究員
-- 2017年8月～： 
+- 2017年8月～2019年3月： 
 京都大学 国際高等教育院 附属データ科学イノベーション教育研究センター 特定講師
 - 2012年10月～2017年7月：
 京都大学大学院 情報学研究科 特定助教
@@ -67,6 +69,5 @@ Microsoft Research Asia Internship (under supervision by Dr. Tetsuya Sakai in WI
 (Makoto Kato, Hiroaki Ohshima, Satoshi Oyama and Katsumi Tanaka: Can Social Tagging Improve Web Image Search?)
 
 ## 連絡先
-- Address: 〒606-8501 京都市左京区吉田本町
-- Tel: 075-753-5959
+- Address: 〒305-8550　茨城県つくば市春日1-2 7D棟308
 - E-mail: mpkato at-mark acm.org 
