@@ -4,6 +4,7 @@ hasCJKLanguage = true
 metaDataFormat = "yaml"
 theme = "hugo-bootstrap"
 googleAnalytics = "UA-25007161-1"
+enableRobotsTXT = true
 
 [params]
   images = ["/images/mpkato.jpg"]
@@ -48,3 +49,8 @@ googleAnalytics = "UA-25007161-1"
     url = "/activities/"
     name = "活動"
     weight = 3
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
