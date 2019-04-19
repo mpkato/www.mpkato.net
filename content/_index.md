@@ -6,6 +6,8 @@ date: 2019-03-10T11:51:55+09:00
 I'm an associate professor in University of Tsukuba, Japan. 
 My research interests include Information Retrieval, Web Mining, and Machine Learning.
 
+[Knowledge Acquisition System Laboratory (M. P. Kato Laboratory)](http://kasys.slis.tsukuba.ac.jp/en/)
+
 ## Affiliation
 - **Associate Professor**: Faculty of Library, Information and Media Science, University of Tsukuba.
 
