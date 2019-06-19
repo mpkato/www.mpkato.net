@@ -1,6 +1,5 @@
 ---
-title: "Researches"
-date: 2019-03-10T11:51:55+09:00
+title: "Research"
 ---
 
 ## Data and Tools

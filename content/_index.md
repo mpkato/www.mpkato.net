@@ -1,6 +1,5 @@
 ---
 title: "Makoto P. Kato"
-date: 2019-03-10T11:51:55+09:00
 ---
 
 I'm an associate professor in University of Tsukuba, Japan. 

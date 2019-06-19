@@ -1,6 +1,5 @@
 ---
 title: "Activities"
-date: 2019-03-10T11:37:59+09:00
 ---
 
 # Activities

@@ -1,6 +1,5 @@
 ---
 title: "Publications"
-date: 2019-03-10T12:39:46+09:00
 ---
 
 ## Publication List

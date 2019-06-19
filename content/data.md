@@ -1,6 +1,5 @@
 ---
 title: "Data and Tools"
-date: 2019-03-10T12:57:45+09:00
 ---
 
 ## Tools
