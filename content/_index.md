@@ -34,3 +34,5 @@ My research interests include Information Retrieval, Web Mining, and Machine Lea
 ## Contact
 - Address: 7D 308, 1-2, Kasuga, Tsukuba, Ibaraki, 305-8550, Japan
 - E-mail: mpkato at-mark slis.tsukuba.ac.jp
+
+<script src="https://embed.small.chat/T02T2BUPJG8KVD05C6.js" async></script>
