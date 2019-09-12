@@ -5,10 +5,10 @@ title: "Makoto P. Kato"
 I'm an associate professor in University of Tsukuba, Japan. 
 My research interests include Information Retrieval, Web Mining, and Machine Learning.
 
-[Knowledge Acquisition System Laboratory (M. P. Kato Laboratory)](http://kasys.slis.tsukuba.ac.jp/en/)
+**Lab:** [Knowledge Acquisition System Laboratory (M. P. Kato Laboratory)](http://kasys.slis.tsukuba.ac.jp/en/)
 
 ## Affiliation
-- **Associate Professor**: Faculty of Library, Information and Media Science, University of Tsukuba.
+- **Associate Professor**: Faculty of Library, Information and Media Science, University of Tsukuba
 
 ## Employment
 - Apr 2019 - : **Associate Professor** (Faculty of Library, Information and Media Science, University of Tsukuba)

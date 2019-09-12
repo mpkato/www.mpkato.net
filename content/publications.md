@@ -8,6 +8,7 @@ title: "Publications"
 
 ## Selected Publications
 
+- Wiradee Imrattanatrai, Makoto P. Kato, Masatoshi Yoshikawa: Identifying Entity Properties from Text with Zero-shot Learning. In Proc. of the 42th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2019), pp. 195-204, 2019.
 - Bei Liu, Jianlong Fu, Makoto P. Kato, Masatoshi Yoshikawa: Beyond Narrative Description: Generating Poetry from Images by Multi-Adversarial Training. In Proc. of the 26th ACM international conference on Multimedia (MM 2018), pp. 783-791, 2018.
 - Makoto P. Kato, Katsumi Tanaka: To Suggest, or Not to Suggest for Queries with Diverse Intents: Optimizing Search Result Presentation. In Proc. of the 9th ACM International Conference on Web Search and Data Mining (WSDM 2016), pp. 133-142, 2016.
 - Makoto P. Kato, Takehiro Yamamoto, Hiroaki Ohshima, Katsumi Tanaka: Investigating Users' Query Formulations for Cognitive Search Intents. In Proc. of the 37th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2014), pp. 577-586, 2014.
