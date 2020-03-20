@@ -4,7 +4,8 @@ title: "加藤 誠 (Makoto P. Kato)"
 
 筑波大学の准教授です．情報検索，Webマイニング，機械学習に興味があります．
 
-**研究室:** [知識獲得システム研究室 (加藤 誠 研究室)](http://kasys.slis.tsukuba.ac.jp/)
+**研究室:**
+[![KASYS](https://kasys.slis.tsukuba.ac.jp/wp-content/themes/kasys/images/KASYS_LOGO_header.png)](http://kasys.slis.tsukuba.ac.jp/en/)
 
 ## 所属
 - [筑波大学 図書館情報メディア系](http://slis.tsukuba.ac.jp/grad/)
