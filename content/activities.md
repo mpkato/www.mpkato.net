@@ -9,6 +9,8 @@ title: "Activities"
 - NTCIR-12, NTCIR-13, NTCIR-14, and NTCIR-15 PC Co-chair
 - ASSIA 2017 Organizing Committee (Chair)
 - SIGIR 2017 and SIGIR 2018 Doctoral Consortium Co-chair
+- SIGIR 2020 Doctoral Consortium Mentor
+- NTCIR-16 Task Organizer (Data Search 2 Task)
 - NTCIR-15 Task Organizer (Data Search Task)
 - NTCIR-14 Task Organizer (OpenLiveQ-2 Task)
 - NTCIR-13 Task Organizer (OpenLiveQ Task)
