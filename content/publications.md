@@ -8,6 +8,10 @@ title: "Publications"
 
 ## Selected Publications
 
+- Yuki Yanagida, Makoto P. Kato, Yuka Kawada, Takehiro Yamamoto, Hiroaki Ohshima, Sumio Fujita: What Web Search Behaviors Lead to Online Purchase Satisfaction? In Proc. of the 15th ACM Web Science Conference 2023 (WebSci 2023), pp. 324-34, 2023.
+- Kojiro Iizuka, Hajime Morita, Makoto P. Kato: Theoretical Analysis on the Efficiency of Interleaved Comparisons. In Proc. of the 45th European Conference on IR Research (ECIR 2023), pp. 459-473, 2023.
+- Atsuki Maruta, Makoto P. Kato: Intent‑Aware Data Visualization Recommendation. Data Science and Engineering, 2022.
+- Makoto P. Kato, Hiroaki Ohshima, Ying-Hsang Liu, Hsin-Liang Chen: A Test Collection for Ad-hoc Dataset Retrieval. In Proc. of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2021), pp. 2450-2456, 2021.
 - Wiradee Imrattanatrai, Makoto P. Kato, Masatoshi Yoshikawa: Identifying Entity Properties from Text with Zero-shot Learning. In Proc. of the 42th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2019), pp. 195-204, 2019.
 - Bei Liu, Jianlong Fu, Makoto P. Kato, Masatoshi Yoshikawa: Beyond Narrative Description: Generating Poetry from Images by Multi-Adversarial Training. In Proc. of the 26th ACM international conference on Multimedia (MM 2018), pp. 783-791, 2018.
 - Makoto P. Kato, Katsumi Tanaka: To Suggest, or Not to Suggest for Queries with Diverse Intents: Optimizing Search Result Presentation. In Proc. of the 9th ACM International Conference on Web Search and Data Mining (WSDM 2016), pp. 133-142, 2016.

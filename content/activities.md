@@ -5,7 +5,13 @@ title: "Activities"
 # Activities
 
 ## Organization
-- NTCIR-16 General Co-chair
+- TheWebConf 2024 Search Track Co-chair
+- SIGIR-AP 2023 Workshop Co-chair
+- SIGIR 2023 PC Co-chair
+- NTCIR-16, NTCIR-17 General Co-chair
+- NTCIR-17 Task Organizer (UFO Task)
+- BigComp 2023 Tutorial Co-chair
+- iConference 2022 Short Research Papers Co-chair
 - NTCIR-12, NTCIR-13, NTCIR-14, and NTCIR-15 PC Co-chair
 - ASSIA 2017 Organizing Committee (Chair)
 - SIGIR 2017 and SIGIR 2018 Doctoral Consortium Co-chair
@@ -26,25 +32,30 @@ title: "Activities"
 
 ## Program Committees
 - SIGIR 2015-2016
-- SIGIR 2017-2021 (senior PC)
-- WSDM 2014-2021
-- CIKM 2017-2020
-- TheWebConf 2019-2021
+- SIGIR 2017-2022 (senior PC)
+- SIGIR-AP 2023 (senior PC)
+- WSDM 2014-2022
+- CIKM 2017-2022
+- CIKM 2023 (senior PC)
+- TheWebConf 2019-2022
 - WWW 2017-2018
-- CHIIR 2019-2021
-- ICTIR 2020-2021
+- CHIIR 2019-2023
+- ICTIR 2020-2022
 - IJCAI 2021
-- AAAI 2018, 2020
+- AAAI 2018, 2020-2021
 - ACL 2018-2019
 - EMNLP 2018-2020
 - AIRS 2015-2019
 - SPIRE 2016
-- ICADL 2014, 2019-2020
+- ICADL 2014, 2019-2020, 2022-2023
 - IJCNLP 2013
 - OAIR 2013
 
 ## Editorial Board
 - Information Retrieval Journal 2016 -
+
+## Keynotes
+- ROCLING 2022 Keynote: Matching Texts with Data for Evidence-based Information Retrieval
 
 ## Internships
 - Jun 2011 - Sep 2011: Microsoft Research Internship (under supervision by Dr. Susan Dumais in CLUES group)
