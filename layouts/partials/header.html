@@ -11,7 +11,7 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul class="navbar-nav">
-                {{ $url := .URL | relLangURL }}
+                {{ $url := .RelPermalink | relLangURL }}
                 {{ range .Site.Menus.main }}
                 <li class="nav-item {{ if eq $url (.URL | relLangURL) }}active{{end}}">
                     {{ if eq (hasPrefix .URL "mailto:") true }}
@@ -27,7 +27,7 @@
                 {{ range .Site.Home.AllTranslations }}
                   {{ if ne $.Site.Language.Lang .Language.Lang }}
                   <li class="nav-item">
-                    <a class="nav-link" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                    <a class="nav-link" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
                   </li>
                   {{ end }}
                 {{ end }}

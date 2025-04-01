@@ -11,13 +11,13 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul class="navbar-nav">
-                {{ $url := .URL | relLangURL }}
+                {{ $url := .Permalink | relLangURL }}
                 {{ range .Site.Menus.main }}
-                <li class="nav-item {{ if eq $url (.URL | relLangURL) }}active{{end}}">
-                    {{ if eq (hasPrefix .URL "mailto:") true }}
-                        <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+                <li class="nav-item {{ if eq $url (.Permalink | relLangURL) }}active{{end}}">
+                    {{ if eq (hasPrefix .Permalink "mailto:") true }}
+                        <a class="nav-link" href="{{ .Permalink }}">{{ .Name }}</a>
                     {{ else }}
-                        <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                        <a class="nav-link" href="{{ .Permalink | relLangURL }}">{{ .Name }}</a>
                     {{ end }}
                 </li>
                 {{ end }}

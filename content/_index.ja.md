@@ -2,13 +2,14 @@
 title: "加藤 誠 (Makoto P. Kato)"
 ---
 
-筑波大学の准教授です．情報検索，Webマイニング，機械学習に興味があります．
+筑波大学の准教授です．情報検索，特に検索アルゴリズム，評価，ユーザ検索行動に興味があります．
 
 **研究室:**
 [![KASYS](https://kasys.slis.tsukuba.ac.jp/wp-content/themes/kasys/images/KASYS_LOGO_header.png)](http://kasys.slis.tsukuba.ac.jp/)
 
 ## 所属
-- [筑波大学 図書館情報メディア系](http://slis.tsukuba.ac.jp/grad/)
+- [筑波大学 図書館情報メディア系](https://informatics.tsukuba.ac.jp/)
+- [国立情報学研究所 情報社会相関研究系](https://www.nii.ac.jp/)
 
 ## 所属学会
 - ACM
@@ -16,9 +17,11 @@ title: "加藤 誠 (Makoto P. Kato)"
 - 情報処理学会
 
 ## 職歴
+- 2025年4月～： 
+国立情報学研究所 情報社会相関研究系 准教授
 - 2019年4月～： 
 筑波大学 図書館情報メディア系 准教授
-- 2018年10月～： 
+- 2018年10月～2022年3月： 
 JST さきがけ研究員
 - 2017年8月～2019年3月： 
 京都大学 国際高等教育院 附属データ科学イノベーション教育研究センター 特定講師

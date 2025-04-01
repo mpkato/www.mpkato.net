@@ -2,18 +2,20 @@
 title: "Makoto P. Kato"
 ---
 
-I'm an associate professor in University of Tsukuba, Japan. 
-My research interests include Information Retrieval, Web Mining, and Machine Learning.
+I'm an associate professor in University of Tsukuba and National Institute of Informatics, Japan. 
+My research focuses on Information Retrieval, including retrieval algorithms, evaluation, and user search behavior.
 
 **Lab:** 
 [![KASYS](https://kasys.slis.tsukuba.ac.jp/wp-content/themes/kasys/images/KASYS_LOGO_header.png)](http://kasys.slis.tsukuba.ac.jp/en/)
 
 ## Affiliation
 - **Associate Professor**: Faculty of Library, Information and Media Science, University of Tsukuba
+- **Associate Professor**: Information and Society Research Division, National Institute of Informatics
 
 ## Employment
+- Apr 2025 - : **Associate Professor** (Information and Society Research Division, National Institute of Informatics)
 - Apr 2019 - : **Associate Professor** (Faculty of Library, Information and Media Science, University of Tsukuba)
-- Oct 2018 - : **PRESTO Research Fellow** (Japan Science and Technology Agency)
+- Oct 2018 - Mar 2022: **PRESTO Research Fellow** (Japan Science and Technology Agency)
 - Aug 2017 - Mar 2019: **Senior Lecturer** (Institute for Liberal Arts and Sciences, Kyoto University)
 - Oct 2012 – Jul 2017: **Assistant Professor** (Graduate School of Informatics, Kyoto University)
 - Jun 2011 – Sep 2011: **Microsoft Research Internship** (under supervision by Dr. Susan Dumais in CLUES group)
