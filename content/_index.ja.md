@@ -2,7 +2,7 @@
 title: "加藤 誠 (Makoto P. Kato)"
 ---
 
-筑波大学の准教授です．情報検索，特に検索アルゴリズム，評価，ユーザ検索行動に興味があります．
+筑波大学／国立情報学研究所の准教授です．情報検索，特に検索アルゴリズム，評価，ユーザ検索行動に興味があります．
 
 **研究室:**
 [![KASYS](https://kasys.slis.tsukuba.ac.jp/wp-content/themes/kasys/images/KASYS_LOGO_header.png)](http://kasys.slis.tsukuba.ac.jp/)
