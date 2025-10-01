@@ -1,5 +1,5 @@
 ---
-title: "Research Project: Client-Side Information Retrieval"
+title: "研究プロジェクト: クライアントサイド情報検索"
 ---
 
-# Research Project: Client-Side Information Retrieval
+# 研究プロジェクト: クライアントサイド情報検索
