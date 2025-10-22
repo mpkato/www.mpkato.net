@@ -3,10 +3,14 @@ title: "活動"
 ---
 
 ## 委員等
+- WSDM 2026 Workshop Co-chair
+- NTCIR-19 Task Organizer (ModelRetrieval Task)
+- SIGIR-AP 2025 Workshop Chair
+- SIGIR-AP 2024 Local Arrangement Co-chair
 - TheWebConf 2024 Search Track Co-chair
 - SIGIR-AP 2023 Workshop Co-chair
 - SIGIR 2023 PC Co-chair
-- NTCIR-16, NTCIR-17 General Co-chair
+- NTCIR-16, NTCIR-17, NTCIR-18, NTCIR-19 General Co-chair
 - NTCIR-17 Task Organizer (UFO Task)
 - BigComp 2023 Tutorial Co-chair
 - iConference 2022 Short Research Papers Co-chair
@@ -28,17 +32,19 @@ title: "活動"
 - WebDB Forum 2013 Broadcasting chair
 - SocInfo 2013 Web chair
 
+
 ## プログラム委員
 - SIGIR 2015-2016
-- SIGIR 2017-2022 (senior PC)
-- SIGIR-AP 2023 (senior PC)
+- SIGIR 2017-2022, 2024-2025 (senior PC)
+- SIGIR-AP 2023-2025 (senior PC)
+- ECIR 2026 (senior PC)
 - WSDM 2014-2022
 - CIKM 2017-2022
-- CIKM 2023 (senior PC)
-- TheWebConf 2019-2022
-- WWW 2017-2018
-- CHIIR 2019-2023
-- ICTIR 2020-2022
+- CIKM 2023-2025 (senior PC)
+- TheWebConf (WWW) 2017-2022, 2025
+- CHIIR 2025-2026 (senior PC)
+- CHIIR 2019-2024
+- ICTIR 2020-2024
 - IJCAI 2021
 - AAAI 2018, 2020-2021
 - ACL 2018-2019
@@ -51,7 +57,9 @@ title: "活動"
 
 
 ## 編集委員 
-Information Retrieval Journal 2016 -
+- Information Retrieval Research Journal 2024 - 
+- ACM Transactions on Information Systems (Associate Editor) 2025 - 
+- Information Retrieval Journal 2016 - 2023
 
 ## インターンシップ 
 - Jun 2011 - Sep 2011: Microsoft Research Internship (under supervision by Dr. Susan Dumais in CLUES group)
