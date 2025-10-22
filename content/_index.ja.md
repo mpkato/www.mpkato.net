@@ -42,6 +42,7 @@ Microsoft Research Asia Internship (under supervision by Dr. Tetsuya Sakai in WI
 - 2012年 9月 京都大学大学院 情報学研究科 社会情報学専攻 博士後期課程 修了 博士（情報学）
 
 ## 外部資金
+- JSTさきがけ 令和7年度〜10年度「研究開発のためのクライアントサイド情報検索技術」
 - 基盤研究(B) 令和5年度〜8年度「汎用検索モデルに基づく低資源下における情報検索システム構築技術の開発」
 - JSTさきがけ 平成30年度〜33年度「オープンデータ利活用のためのデータ検索エンジンの構築」
 - 基盤研究(B) 平成30年度～34年度「数量データに基づくWeb情報の信頼性検証と高信頼情報の生成」
@@ -50,6 +51,10 @@ Microsoft Research Asia Internship (under supervision by Dr. Tetsuya Sakai in WI
 - 特別研究員奨励費（日本学術振興会特別研究員 DC1）平成22年度～24年度「アナロジーに基づく情報検索に関する研究」
 
 ## 受賞
+- 第17回データ工学と情報マネジメントに関するフォーラム (DEIM 2025) 最優秀インタラクティブ賞
+(田貝 奈央, 加藤 誠: クエリ・文書拡張による現在の会話に関連する過去の発話文検索)
+- 第16回データ工学と情報マネジメントに関するフォーラム (DEIM 2024) 優秀インタラクティブ賞
+(丸田 敦貴, 田貝 奈央, 加藤 誠: スプレッドシートを用いたデータ解析における情報要求分析)
 - ACM Multimedia 2018 Best Paper Award
 (Bei Liu, Jianlong Fu, Makoto P. Kato, and Masatoshi Yoshikawa: Beyond Narrative Description: Generating Poetry from Images by Multi-Adversarial Training)
 - 第12回 上林奨励賞（DBSJ Kambayashi Young Researcher Award）
