@@ -7,6 +7,9 @@ title: "Research"
 
 ## Research Topics
 
+### Client-side Information Retrieval (2025 - )
+In this research project, we develop technologies that employ client-side AI running on researchers’ PCs to continuously monitor research activities and information-seeking behaviors, autonomously retrieving and providing information necessary for advancing research. This approach reduces privacy and security risks while enabling the timely delivery of information that researchers intend to search for, information they did not explicitly intend to search for but is still useful, and information that contributes to the progress of their research.
+
 ### Data Search (2018 - )
 This research aims to develop a data search engine for organizing the world’s open data and making it universally accessible and useful. The data search engine provides flexible and efficient access to open data by realizing queries on implications from data and data summarization through an index built by data analysis. We encourage open science and data-driven scientific decision making of the general public by establishing the data search engine.
 
