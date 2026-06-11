@@ -8,6 +8,13 @@ bio: >
   Institute of Informatics, Japan. My research focuses on Information
   Retrieval, including retrieval algorithms, evaluation, and user search
   behavior.
+searchQueries:
+  - "information retrieval"
+  - "retrieval algorithms"
+  - "IR evaluation"
+  - "user search behavior"
+  - "data search"
+  - "client-side information retrieval"
 links:
   - name: "Google Scholar"
     url: "https://scholar.google.co.jp/citations?user=Gr2Q2dQAAAAJ"

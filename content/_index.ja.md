@@ -5,6 +5,13 @@ role: "准教授"
 photo: "/images/mpkato.jpg"
 bio: >
   筑波大学／国立情報学研究所の准教授です．情報検索，特に検索アルゴリズム，評価，ユーザ検索行動に興味があります．
+searchQueries:
+  - "情報検索"
+  - "検索アルゴリズム"
+  - "情報検索の評価"
+  - "ユーザ検索行動"
+  - "データ検索"
+  - "クライアントサイド情報検索"
 links:
   - name: "Google Scholar"
     url: "https://scholar.google.co.jp/citations?user=Gr2Q2dQAAAAJ"

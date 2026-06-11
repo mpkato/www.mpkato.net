@@ -1,0 +1,47 @@
+{{ define "main" }}
+<article class="page">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+  </header>
+  {{ with .Params.intro }}
+  <p class="page-intro">{{ . }}</p>
+  {{ end }}
+
+  {{ range .Params.projects }}
+  <section class="project" id="{{ .id }}">
+    <h2>{{ if .link }}<a href="{{ .link | relLangURL }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h2>
+    <div class="project-meta">
+      <span class="chip period">{{ .period }}</span>
+      {{ with .funding }}<span class="chip funding">{{ . }}</span>{{ end }}
+    </div>
+    {{ with .image }}
+    <div class="project-image"><img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy"></div>
+    {{ end }}
+    <p class="project-summary">{{ .summary }}</p>
+    {{ with .link }}
+    <a class="project-more" href="{{ . | relLangURL }}">{{ i18n "readMore" }} &rarr;</a>
+    {{ end }}
+    {{ with .publications }}
+    <h3>{{ i18n "relatedPublications" }}</h3>
+    <ol class="result-list">
+      {{ range . }}
+      <li>{{ . | markdownify }}</li>
+      {{ end }}
+    </ol>
+    {{ end }}
+    {{ with .resources }}
+    <h3>{{ i18n "relatedResources" }}</h3>
+    <ol class="result-list">
+      {{ range . }}
+      <li>{{ . | markdownify }}</li>
+      {{ end }}
+    </ol>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  <div class="prose">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

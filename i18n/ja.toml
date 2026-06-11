@@ -21,3 +21,15 @@ other = "連絡先"
 
 [address]
 other = "住所"
+
+[relatedPublications]
+other = "関連論文"
+
+[relatedResources]
+other = "関連リソース"
+
+[readMore]
+other = "詳細を見る"
+
+[searchHint]
+other = "研究トピック"

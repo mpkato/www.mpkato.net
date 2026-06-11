@@ -21,3 +21,15 @@ other = "Contact"
 
 [address]
 other = "Address"
+
+[relatedPublications]
+other = "Related Publications"
+
+[relatedResources]
+other = "Related Resources"
+
+[readMore]
+other = "Read more"
+
+[searchHint]
+other = "Research topics"

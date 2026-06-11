@@ -13,5 +13,34 @@
         toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
       });
     }
+
+    var el = document.querySelector('.search-text');
+    if (!el) return;
+    var queries;
+    try { queries = JSON.parse(el.getAttribute('data-queries')); } catch (e) { return; }
+    if (!queries || queries.length < 2) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var qi = 0, ci = queries[0].length, deleting = true;
+    function tick() {
+      var q = queries[qi];
+      if (deleting) {
+        ci--;
+        el.textContent = q.slice(0, ci);
+        if (ci === 0) {
+          deleting = false;
+          qi = (qi + 1) % queries.length;
+          return setTimeout(tick, 400);
+        }
+        return setTimeout(tick, 35);
+      }
+      ci++;
+      el.textContent = queries[qi].slice(0, ci);
+      if (ci === queries[qi].length) {
+        deleting = true;
+        return setTimeout(tick, 2200);
+      }
+      setTimeout(tick, 75);
+    }
+    setTimeout(tick, 2200);
   })();
 </script>
