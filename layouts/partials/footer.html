@@ -1,0 +1,17 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>&copy; {{ now.Year }} Makoto P. Kato</p>
+  </div>
+</footer>
+<script>
+  (function () {
+    var toggle = document.querySelector('.nav-toggle');
+    var links = document.getElementById('nav-links');
+    if (toggle && links) {
+      toggle.addEventListener('click', function () {
+        var open = links.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    }
+  })();
+</script>

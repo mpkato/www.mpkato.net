@@ -2,8 +2,6 @@
 title: "Activities"
 ---
 
-# Activities
-
 ## Organization
 - WSDM 2026 Workshop Co-chair
 - NTCIR-19 Task Organizer (ModelRetrieval Task)

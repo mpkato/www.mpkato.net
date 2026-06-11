@@ -1,84 +1,121 @@
 ---
 title: "加藤 誠 (Makoto P. Kato)"
+name: "加藤 誠 (Makoto P. Kato)"
+role: "准教授"
+photo: "/images/mpkato.jpg"
+bio: >
+  筑波大学／国立情報学研究所の准教授です．情報検索，特に検索アルゴリズム，評価，ユーザ検索行動に興味があります．
+links:
+  - name: "Google Scholar"
+    url: "https://scholar.google.co.jp/citations?user=Gr2Q2dQAAAAJ"
+  - name: "GitHub"
+    url: "https://github.com/mpkato"
+  - name: "KASYS研究室"
+    url: "http://kasys.slis.tsukuba.ac.jp/"
+affiliations:
+  - name: "筑波大学 図書館情報メディア系"
+    url: "https://informatics.tsukuba.ac.jp/"
+  - name: "国立情報学研究所 情報社会相関研究系"
+    url: "https://www.nii.ac.jp/"
+highlights:
+  - title: "情報検索研究"
+    text: >
+      検索アルゴリズム，評価，ユーザ検索行動を中心に15年以上研究に従事．SIGIR・WWW・WSDM・CIKM・ECIRなどの国際会議で成果を発表．
+  - title: "受賞"
+    text: >
+      ACM Multimedia 2018 Best Paper Award，WISE 2008 Kambayashi Best Paper Award，上林奨励賞など国内外で多数受賞．
+  - title: "学術コミュニティへの貢献"
+    text: >
+      SIGIR 2023 PC Co-chair，NTCIR-16〜19 General Co-chair，ACM Transactions on Information Systems の Associate Editor などを歴任．
+  - title: "研究プロジェクト"
+    text: >
+      JSTさきがけ「オープンデータ利活用のためのデータ検索エンジンの構築」「研究開発のためのクライアントサイド情報検索技術」などの研究課題を推進．
+employment:
+  - period: "2025年4月～"
+    role: "准教授"
+    org: "国立情報学研究所 情報社会相関研究系"
+  - period: "2019年4月～"
+    role: "准教授"
+    org: "筑波大学 図書館情報メディア系"
+  - period: "2018年10月～2022年3月"
+    role: "さきがけ研究員"
+    org: "科学技術振興機構 (JST)"
+  - period: "2017年8月～2019年3月"
+    role: "特定講師"
+    org: "京都大学 国際高等教育院 附属データ科学イノベーション教育研究センター"
+  - period: "2012年10月～2017年7月"
+    role: "特定助教"
+    org: "京都大学大学院 情報学研究科"
+  - period: "2011年6月～2011年9月"
+    role: "Research Intern"
+    org: "Microsoft Research (CLUES group, under supervision by Dr. Susan Dumais)"
+  - period: "2010年12月～2011年2月"
+    role: "Research Intern"
+    org: "Microsoft Research Asia (WSM group, under supervision by Dr. Tetsuya Sakai)"
+  - period: "2010年5月～2010年10月"
+    role: "Research Intern"
+    org: "Microsoft Research Asia (WIT group, under supervision by Dr. Tetsuya Sakai)"
+  - period: "2010年4月～2012年9月"
+    role: "日本学術振興会特別研究員 DC1"
+    org: "日本学術振興会"
+education:
+  - period: "2009年10月～2012年9月"
+    degree: "博士（情報学）"
+    org: "京都大学大学院 情報学研究科 社会情報学専攻 博士後期課程"
+  - period: "2008年4月～2009年9月"
+    degree: "修士（情報学）"
+    org: "京都大学大学院 情報学研究科 社会情報学専攻 修士課程"
+  - period: "2004年4月～2008年3月"
+    degree: "学士（工学）"
+    org: "京都大学 工学部 情報学科 計算機科学コース"
+grants:
+  - name: "JSTさきがけ 令和7年度〜10年度"
+    detail: "「研究開発のためのクライアントサイド情報検索技術」"
+  - name: "基盤研究(B) 令和5年度〜8年度"
+    detail: "「汎用検索モデルに基づく低資源下における情報検索システム構築技術の開発」"
+  - name: "JSTさきがけ 平成30年度〜33年度"
+    detail: "「オープンデータ利活用のためのデータ検索エンジンの構築」"
+  - name: "基盤研究(B) 平成30年度～34年度"
+    detail: "「数量データに基づくWeb情報の信頼性検証と高信頼情報の生成」"
+  - name: "若手研究(A) 平成26年度～29年度"
+    detail: "「潜在的情報を引き出すための情報誘出技術に関する研究」"
+  - name: "GCOEプログラム「知識循環社会のための情報学教育研究拠点」若手研究者研究活動経費 平成21年度"
+    detail: "「アナロジーに基づく地理情報検索に関する研究」"
+  - name: "特別研究員奨励費（日本学術振興会特別研究員 DC1）平成22年度～24年度"
+    detail: "「アナロジーに基づく情報検索に関する研究」"
+awards:
+  - name: "第17回データ工学と情報マネジメントに関するフォーラム (DEIM 2025) 最優秀インタラクティブ賞"
+    detail: "田貝 奈央, 加藤 誠: クエリ・文書拡張による現在の会話に関連する過去の発話文検索"
+  - name: "第16回データ工学と情報マネジメントに関するフォーラム (DEIM 2024) 優秀インタラクティブ賞"
+    detail: "丸田 敦貴, 田貝 奈央, 加藤 誠: スプレッドシートを用いたデータ解析における情報要求分析"
+  - name: "ACM Multimedia 2018 Best Paper Award"
+    detail: "Bei Liu, Jianlong Fu, Makoto P. Kato, and Masatoshi Yoshikawa: Beyond Narrative Description: Generating Poetry from Images by Multi-Adversarial Training"
+  - name: "第12回 上林奨励賞（DBSJ Kambayashi Young Researcher Award）"
+  - name: "第9回データ工学と情報マネジメントに関するフォーラム (DEIM 2017) 優秀論文賞"
+    detail: "加藤 誠, 内田 臣了, Imrattanatrai Wiradee, 山本 岳洋, 大島 裕明, 田中 克己: 文脈誘導型ランキング学習"
+  - name: "第5回データ工学と情報マネジメントに関するフォーラム (DEIM 2013) 最優秀インタラクティブ賞"
+    detail: "落合 修也, 加藤 誠, 田中 克己: あいまいなエピソードからのオブジェクト検索とクエリの対話的修正"
+  - name: "第4回データ工学と情報マネジメントに関するフォーラム (DEIM 2012) 最優秀インタラクティブ賞"
+    detail: "加藤誠, 大島裕明, 田中克己: 例示検索のための集約点との関係に基づくドメイン適応"
+  - name: "第2回データ工学と情報マネジメントに関するフォーラム (DEIM 2010) 最優秀インタラクティブ賞"
+    detail: "加藤誠, 大島裕明, 小山聡, 田中克己: 地物間の距離を考慮した動的な類似性尺度に基づく地理情報例示検索"
+  - name: "Distinguished Young Researcher Award in iDB Workshop 2009"
+    detail: "Makoto P. Kato, Hiroaki Ohshima, Satoshi Oyama, and Katsumi Tanaka: Query By Analogical Example: Relational Search Using Web Search Engine Indices"
+  - name: "第1回データ工学と情報マネジメントに関するフォーラム (DEIM 2009) 優秀インタラクティブ賞"
+    detail: "加藤誠, 大島裕明, 小山聡, 田中克己: ブートストラップ法による語の共起を用いたWebからの類似関係抽出"
+  - name: "Webとデータベースに関するフォーラム (WebDB Forum 2008) 企業賞 (Yahoo! JAPAN, 楽天)"
+    detail: "加藤誠, 大島裕明, 小山聡, 田中克己: 語の共起を用いたWebの類似関係検索"
+  - name: "情報処理学会データベースシステム研究会 学生奨励賞"
+    detail: "加藤誠, 大島裕明, 小山聡, 田中克己: 語の共起を用いたWebの類似関係検索"
+  - name: "WISE 2008 Kambayashi Best Paper Award"
+    detail: "Makoto Kato, Hiroaki Ohshima, Satoshi Oyama and Katsumi Tanaka: Can Social Tagging Improve Web Image Search?"
+memberships:
+  - "ACM"
+  - "日本データベース学会"
+  - "情報処理学会"
+contact:
+  address: "〒305-8550　茨城県つくば市春日1-2 7D棟308"
+  email: "mpkato at-mark acm.org"
 ---
-
-筑波大学／国立情報学研究所の准教授です．情報検索，特に検索アルゴリズム，評価，ユーザ検索行動に興味があります．
-
-**研究室:**
-[![KASYS](https://kasys.slis.tsukuba.ac.jp/wp-content/themes/kasys/images/KASYS_LOGO_header.png)](http://kasys.slis.tsukuba.ac.jp/)
-
-## 所属
-- [筑波大学 図書館情報メディア系](https://informatics.tsukuba.ac.jp/)
-- [国立情報学研究所 情報社会相関研究系](https://www.nii.ac.jp/)
-
-## 所属学会
-- ACM
-- 日本データベース学会
-- 情報処理学会
-
-## 職歴
-- 2025年4月～： 
-国立情報学研究所 情報社会相関研究系 准教授
-- 2019年4月～： 
-筑波大学 図書館情報メディア系 准教授
-- 2018年10月～2022年3月： 
-JST さきがけ研究員
-- 2017年8月～2019年3月： 
-京都大学 国際高等教育院 附属データ科学イノベーション教育研究センター 特定講師
-- 2012年10月～2017年7月：
-京都大学大学院 情報学研究科 特定助教
-- 2011年 6月～2011年9月：
-Microsoft Research Internship (under supervision by Dr. Susan Dumais in CLUES group)
-- 2010年 12月～2011年2月：
-Microsoft Research Asia Internship (under supervision by Dr. Tetsuya Sakai in WSM group)
-- 2010年 5月～10月：
-Microsoft Research Asia Internship (under supervision by Dr. Tetsuya Sakai in WIT group)
-- 2010年 4月～2012年 9月：
-日本学術振興会特別研究員 DC1
-
-## 学歴
-- 2008年 3月 京都大学 工学部 情報学科 計算機科学コース 卒業
-- 2009年 9月 京都大学大学院 情報学研究科 社会情報学専攻 修士課程 修了
-- 2012年 9月 京都大学大学院 情報学研究科 社会情報学専攻 博士後期課程 修了 博士（情報学）
-
-## 外部資金
-- JSTさきがけ 令和7年度〜10年度「研究開発のためのクライアントサイド情報検索技術」
-- 基盤研究(B) 令和5年度〜8年度「汎用検索モデルに基づく低資源下における情報検索システム構築技術の開発」
-- JSTさきがけ 平成30年度〜33年度「オープンデータ利活用のためのデータ検索エンジンの構築」
-- 基盤研究(B) 平成30年度～34年度「数量データに基づくWeb情報の信頼性検証と高信頼情報の生成」
-- 若手研究(A) 平成26年度～29年度「潜在的情報を引き出すための情報誘出技術に関する研究」
-- GCOEプログラム「知識循環社会のための情報学教育研究拠点」若手研究者研究活動経費 平成21年度「アナロジーに基づく地理情報検索に関する研究」
-- 特別研究員奨励費（日本学術振興会特別研究員 DC1）平成22年度～24年度「アナロジーに基づく情報検索に関する研究」
-
-## 受賞
-- 第17回データ工学と情報マネジメントに関するフォーラム (DEIM 2025) 最優秀インタラクティブ賞
-(田貝 奈央, 加藤 誠: クエリ・文書拡張による現在の会話に関連する過去の発話文検索)
-- 第16回データ工学と情報マネジメントに関するフォーラム (DEIM 2024) 優秀インタラクティブ賞
-(丸田 敦貴, 田貝 奈央, 加藤 誠: スプレッドシートを用いたデータ解析における情報要求分析)
-- ACM Multimedia 2018 Best Paper Award
-(Bei Liu, Jianlong Fu, Makoto P. Kato, and Masatoshi Yoshikawa: Beyond Narrative Description: Generating Poetry from Images by Multi-Adversarial Training)
-- 第12回 上林奨励賞（DBSJ Kambayashi Young Researcher Award）
-- 第9回データ工学と情報マネジメントに関するフォーラム (DEIM 2017) 優秀論文賞
-(加藤 誠, 内田 臣了, Imrattanatrai Wiradee, 山本 岳洋, 大島 裕明, 田中 克己: 文脈誘導型ランキング学習)
-- 第5回データ工学と情報マネジメントに関するフォーラム (DEIM 2013) 最優秀インタラクティブ賞
-(落合 修也, 加藤 誠, 田中 克己: あいまいなエピソードからのオブジェクト検索とクエリの対話的修正)
-- 第4回データ工学と情報マネジメントに関するフォーラム (DEIM 2012) 最優秀インタラクティブ賞
-(加藤誠, 大島裕明, 田中克己: 例示検索のための集約点との関係に基づくドメイン適応)
-- 第2回データ工学と情報マネジメントに関するフォーラム (DEIM 2010) 最優秀インタラクティブ賞
-(加藤誠, 大島裕明, 小山聡, 田中克己: 地物間の距離を考慮した動的な類似性尺度に基づく地理情報例示検索)
-- Distinguished Young Researcher Award in iDB Workshop 2009
-(Makoto P. Kato, Hiroaki Ohshima, Satoshi Oyama, and Katsumi Tanaka: Query By Analogical Example: Relational Search Using Web Search Engine Indices)
-- 第1回データ工学と情報マネジメントに関するフォーラム (DEIM 2009) 優秀インタラクティブ賞
-(加藤誠, 大島裕明, 小山聡, 田中克己: ブートストラップ法による語の共起を用いたWebからの類似関係抽出)
-- Webとデータベースに関するフォーラム (WebDB Forum 2008) 企業賞(Yahoo! JAPAN, 楽天)
-(加藤誠, 大島裕明, 小山聡, 田中克己: 語の共起を用いたWebの類似関係検索)
-- 情報処理学会データベースシステム研究会 学生奨励賞
-(加藤誠, 大島裕明, 小山聡, 田中克己: 語の共起を用いたWebの類似関係検索)
-- WISE 2008 Kambayashi Best Paper Award
-(Makoto Kato, Hiroaki Ohshima, Satoshi Oyama and Katsumi Tanaka: Can Social Tagging Improve Web Image Search?)
-
-## 連絡先
-- Address: 〒305-8550　茨城県つくば市春日1-2 7D棟308
-- E-mail: mpkato at-mark acm.org 
 
 <script src="https://embed.small.chat/T02T2BUPJG8KVD05C6.js" async></script>
