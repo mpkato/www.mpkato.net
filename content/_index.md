@@ -15,6 +15,14 @@ searchQueries:
   - "user search behavior"
   - "data search"
   - "client-side information retrieval"
+primaryLinks:
+  - name: "Selected Publications"
+    url: "/publications/"
+    primary: true
+  - name: "Research Projects"
+    url: "/research/"
+  - name: "Data & Tools"
+    url: "/data/"
 links:
   - name: "Google Scholar"
     url: "https://scholar.google.co.jp/citations?user=Gr2Q2dQAAAAJ"
@@ -27,6 +35,13 @@ affiliations:
     url: "https://informatics.tsukuba.ac.jp/"
   - name: "Information and Society Research Division, National Institute of Informatics"
     url: "https://www.nii.ac.jp/"
+heroStats:
+  - value: "SIGIR 2023"
+    label: "PC Co-chair"
+  - value: "NTCIR-16–19"
+    label: "General Co-chair"
+  - value: "ACM TOIS"
+    label: "Associate Editor"
 highlights:
   - title: "Information Retrieval Research"
     text: >
