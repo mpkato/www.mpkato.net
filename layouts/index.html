@@ -11,17 +11,36 @@
         {{ end }}
       </ul>
       <p class="hero-bio">{{ .Params.bio }}</p>
-      <div class="hero-links">
-        {{ range .Params.links }}
+      {{ with .Params.primaryLinks }}
+      <div class="hero-actions">
+        {{ range . }}
+        <a class="btn{{ if .primary }} btn-primary{{ end }}" href="{{ .url | relLangURL }}">{{ .name }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ with .Params.heroStats }}
+      <dl class="hero-stats" aria-label="Selected academic roles">
+        {{ range . }}
+        <div>
+          <dt>{{ .value }}</dt>
+          <dd>{{ .label }}</dd>
+        </div>
+        {{ end }}
+      </dl>
+      {{ end }}
+      {{ with .Params.links }}
+      <div class="hero-links secondary" aria-label="External profiles">
+        {{ range . }}
         <a class="btn" href="{{ .url }}">{{ .name }}</a>
         {{ end }}
       </div>
+      {{ end }}
     </div>
   </div>
   {{ with .Params.searchQueries }}
-  <a class="search-demo" href="{{ "research/" | relLangURL }}">
-    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
-    <span class="search-text" data-queries="{{ . | jsonify }}">{{ index . 0 }}</span><span class="search-caret" aria-hidden="true"></span>
+  <a class="search-demo" href="{{ "research/" | relLangURL }}" aria-label="{{ i18n "searchHint" }}">
+    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
+    <span class="search-text" data-queries="{{ . | jsonify }}" aria-hidden="true">{{ index . 0 }}</span><span class="search-caret" aria-hidden="true"></span>
     <span class="search-hint">{{ i18n "searchHint" }}</span>
   </a>
   {{ end }}
