@@ -12,6 +12,14 @@ searchQueries:
   - "ユーザ検索行動"
   - "データ検索"
   - "クライアントサイド情報検索"
+primaryLinks:
+  - name: "主要業績"
+    url: "/publications/"
+    primary: true
+  - name: "研究プロジェクト"
+    url: "/research/"
+  - name: "データ・ツール"
+    url: "/data/"
 links:
   - name: "Google Scholar"
     url: "https://scholar.google.co.jp/citations?user=Gr2Q2dQAAAAJ"
@@ -24,6 +32,13 @@ affiliations:
     url: "https://informatics.tsukuba.ac.jp/"
   - name: "国立情報学研究所 情報社会相関研究系"
     url: "https://www.nii.ac.jp/"
+heroStats:
+  - value: "SIGIR 2023"
+    label: "PC Co-chair"
+  - value: "NTCIR-16〜19"
+    label: "General Co-chair"
+  - value: "ACM TOIS"
+    label: "Associate Editor"
 highlights:
   - title: "情報検索研究"
     text: >
