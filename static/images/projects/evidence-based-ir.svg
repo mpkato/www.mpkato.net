@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380" viewBox="0 0 640 380" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#4f46e5"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="640" height="380" rx="16" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="6" rx="3" fill="url(#g)"/>
+  <text x="32" y="48" font-size="20" font-weight="700" fill="#1f2937">Evidence-based Information Retrieval</text>
+  <text x="32" y="72" font-size="13" fill="#6b7280">Match text with data and knowledge bases to check credibility</text>
+
+  <!-- text claim -->
+  <rect x="28" y="118" width="180" height="84" rx="10" fill="#eef2ff" stroke="#c7d2fe"/>
+  <text x="44" y="142" font-size="12" font-weight="700" fill="#4f46e5">Text / claim</text>
+  <rect x="44" y="152" width="148" height="8" rx="3" fill="#c7d2fe"/>
+  <rect x="44" y="166" width="120" height="8" rx="3" fill="#c7d2fe"/>
+  <text x="44" y="192" font-size="11" fill="#6b7280">"GDP grew 4% in 2021"</text>
+
+  <!-- data / KB -->
+  <rect x="28" y="222" width="180" height="92" rx="10" fill="#ecfeff" stroke="#a5f3fc"/>
+  <text x="44" y="246" font-size="12" font-weight="700" fill="#0e7490">Data &amp; knowledge base</text>
+  <g fill="#0891b2" font-size="11">
+    <text x="44" y="270">entities · properties</text>
+    <text x="44" y="290">123 · quantitative facts</text>
+  </g>
+
+  <!-- matcher -->
+  <line x1="208" y1="160" x2="266" y2="196" stroke="#4f46e5" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="208" y1="268" x2="266" y2="216" stroke="#4f46e5" stroke-width="2" marker-end="url(#ar)"/>
+  <circle cx="318" cy="206" r="50" fill="url(#g)"/>
+  <text x="318" y="201" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">Match</text>
+  <text x="318" y="219" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">text↔data</text>
+  <line x1="368" y1="206" x2="426" y2="206" stroke="#4f46e5" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- verdict -->
+  <rect x="430" y="150" width="182" height="54" rx="10" fill="#fff" stroke="#86efac"/>
+  <text x="452" y="183" font-size="13" font-weight="700" fill="#16a34a">✓ Supported by data</text>
+  <rect x="430" y="214" width="182" height="54" rx="10" fill="#fff" stroke="#fca5a5"/>
+  <text x="452" y="247" font-size="13" font-weight="700" fill="#dc2626">✗ Contradicted</text>
+
+  <text x="320" y="332" font-size="12" fill="#6b7280" text-anchor="middle">Entity properties &amp; rankings from knowledge bases · generate highly credible information</text>
+</svg>

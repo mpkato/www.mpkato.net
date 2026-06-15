@@ -1,0 +1,114 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-top">
+    <img class="avatar" src="{{ .Params.photo | relURL }}" alt="{{ .Params.name }}" width="150" height="150">
+    <div class="hero-body">
+      <h1 class="hero-name">{{ .Params.name }}</h1>
+      <p class="hero-role">{{ .Params.role }}</p>
+      <ul class="hero-affiliations">
+        {{ range .Params.affiliations }}
+        <li>{{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</li>
+        {{ end }}
+      </ul>
+      <p class="hero-bio">{{ .Params.bio }}</p>
+      <div class="hero-links">
+        {{ range .Params.links }}
+        <a class="btn" href="{{ .url }}">{{ .name }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ with .Params.searchQueries }}
+  <a class="search-demo" href="{{ "research/" | relLangURL }}">
+    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
+    <span class="search-text" data-queries="{{ . | jsonify }}">{{ index . 0 }}</span><span class="search-caret" aria-hidden="true"></span>
+    <span class="search-hint">{{ i18n "searchHint" }}</span>
+  </a>
+  {{ end }}
+</section>
+
+{{ with .Params.highlights }}
+<section class="home-section">
+  <h2>{{ i18n "highlights" }}</h2>
+  <div class="card-grid">
+    {{ range . }}
+    <div class="card">
+      <h3>{{ .title }}</h3>
+      <p>{{ .text }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.employment }}
+<section class="home-section">
+  <h2>{{ i18n "employment" }}</h2>
+  <ol class="timeline">
+    {{ range . }}
+    <li>
+      <span class="tl-period">{{ .period }}</span>
+      <div class="tl-body"><strong>{{ .role }}</strong><span class="tl-org">{{ .org }}</span></div>
+    </li>
+    {{ end }}
+  </ol>
+</section>
+{{ end }}
+
+{{ with .Params.education }}
+<section class="home-section">
+  <h2>{{ i18n "education" }}</h2>
+  <ol class="timeline">
+    {{ range . }}
+    <li>
+      <span class="tl-period">{{ .period }}</span>
+      <div class="tl-body"><strong>{{ .degree }}</strong><span class="tl-org">{{ .org }}</span></div>
+    </li>
+    {{ end }}
+  </ol>
+</section>
+{{ end }}
+
+{{ with .Params.grants }}
+<section class="home-section">
+  <h2>{{ i18n "grants" }}</h2>
+  <ul class="plain-list">
+    {{ range . }}
+    <li><strong>{{ .name }}</strong>{{ with .detail }}<span class="muted">{{ . }}</span>{{ end }}</li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
+
+{{ with .Params.awards }}
+<section class="home-section">
+  <h2>{{ i18n "awards" }}</h2>
+  <ul class="plain-list awards">
+    {{ range . }}
+    <li><strong>{{ .name }}</strong>{{ with .detail }}<span class="muted">{{ . }}</span>{{ end }}</li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
+
+{{ with .Params.memberships }}
+<section class="home-section">
+  <h2>{{ i18n "memberships" }}</h2>
+  <ul class="tag-list">
+    {{ range . }}<li>{{ . }}</li>{{ end }}
+  </ul>
+</section>
+{{ end }}
+
+{{ with .Params.contact }}
+<section class="home-section">
+  <h2>{{ i18n "contact" }}</h2>
+  <ul class="plain-list">
+    <li><strong>{{ i18n "address" }}</strong><span class="muted">{{ .address }}</span></li>
+    <li><strong>E-mail</strong><span class="muted">{{ .email }}</span></li>
+  </ul>
+</section>
+{{ end }}
+
+{{ .Content }}
+{{ end }}

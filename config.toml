@@ -1,22 +1,29 @@
 baseURL = "https://www.mpkato.net/"
 languageCode = "en-us"
 hasCJKLanguage = true
-metaDataFormat = "yaml"
-theme = "hugo-bootstrap"
-googleAnalytics = "UA-25007161-1"
 enableRobotsTXT = true
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy", "term"]
 
 [params]
   images = ["/images/mpkato.jpg"]
+  # To enable Google Analytics 4, set your measurement ID here (e.g. "G-XXXXXXXXXX")
+  # googleAnalytics = ""
 
-[blackfriday]
-   hrefTargetBlank = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [languages.en]
   languageName = "English"
+  languageCode = "en-us"
+  weight = 1
   title = "Makoto P. Kato"
   copyright = " "
-  description = "I'm an associate professor in University of Tsukuba, Japan. My research interests include Information Retrieval, Web Mining, and Machine Learning."
+
+  [languages.en.params]
+    description = "I'm an associate professor at the University of Tsukuba and the National Institute of Informatics, Japan. My research interests include Information Retrieval, Web Mining, and Machine Learning."
 
   [[languages.en.menu.main]]
     url = "/research/"
@@ -27,15 +34,23 @@ enableRobotsTXT = true
     name = "Publications"
     weight = 2
   [[languages.en.menu.main]]
+    url = "/data/"
+    name = "Data & Tools"
+    weight = 3
+  [[languages.en.menu.main]]
     url = "/activities/"
     name = "Activities"
-    weight = 3
+    weight = 4
 
 [languages.ja]
   languageName = "日本語"
+  languageCode = "ja"
+  weight = 2
   title = "加藤 誠 (Makoto P. Kato)"
   copyright = " "
-  description = "筑波大学の准教授です．情報検索，Webマイニング，機械学習に興味があります．"
+
+  [languages.ja.params]
+    description = "筑波大学・国立情報学研究所の准教授です．情報検索，Webマイニング，機械学習に興味があります．"
 
   [[languages.ja.menu.main]]
     url = "/research/"
@@ -46,9 +61,13 @@ enableRobotsTXT = true
     name = "業績"
     weight = 2
   [[languages.ja.menu.main]]
+    url = "/data/"
+    name = "データ・ツール"
+    weight = 3
+  [[languages.ja.menu.main]]
     url = "/activities/"
     name = "活動"
-    weight = 3
+    weight = 4
 
 [sitemap]
   changefreq = "monthly"

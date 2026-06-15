@@ -1,0 +1,35 @@
+[highlights]
+other = "ハイライト"
+
+[employment]
+other = "職歴"
+
+[education]
+other = "学歴"
+
+[grants]
+other = "外部資金"
+
+[awards]
+other = "受賞"
+
+[memberships]
+other = "所属学会"
+
+[contact]
+other = "連絡先"
+
+[address]
+other = "住所"
+
+[relatedPublications]
+other = "関連論文"
+
+[relatedResources]
+other = "関連リソース"
+
+[readMore]
+other = "詳細を見る"
+
+[searchHint]
+other = "研究トピック"

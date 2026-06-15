@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380" viewBox="0 0 640 380" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#4f46e5"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="640" height="380" rx="16" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="6" rx="3" fill="url(#g)"/>
+  <text x="32" y="48" font-size="20" font-weight="700" fill="#1f2937">Low-Resource Information Retrieval</text>
+  <text x="32" y="72" font-size="13" fill="#6b7280">A generalist model adapts to new domains with little training data</text>
+
+  <!-- little training data -->
+  <rect x="28" y="150" width="120" height="84" rx="10" fill="#fff" stroke="#e5e7eb"/>
+  <text x="88" y="176" font-size="12" font-weight="700" fill="#1f2937" text-anchor="middle">Few labels</text>
+  <rect x="44" y="190" width="88" height="9" rx="3" fill="#c7d2fe"/>
+  <rect x="44" y="204" width="60" height="9" rx="3" fill="#c7d2fe"/>
+  <rect x="44" y="218" width="74" height="9" rx="3" fill="#c7d2fe"/>
+  <line x1="148" y1="192" x2="196" y2="192" stroke="#4f46e5" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- generalist model -->
+  <rect x="200" y="138" width="150" height="108" rx="14" fill="url(#g)"/>
+  <text x="275" y="184" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Generalist</text>
+  <text x="275" y="204" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">retrieval model</text>
+
+  <!-- adapt to domains -->
+  <line x1="350" y1="170" x2="430" y2="130" stroke="#0891b2" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="350" y1="192" x2="430" y2="192" stroke="#0891b2" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="350" y1="214" x2="430" y2="254" stroke="#0891b2" stroke-width="2" marker-end="url(#ar)"/>
+
+  <rect x="434" y="104" width="172" height="52" rx="10" fill="#ecfeff" stroke="#a5f3fc"/>
+  <text x="520" y="135" font-size="13" font-weight="700" fill="#0e7490" text-anchor="middle">New domain A</text>
+  <rect x="434" y="166" width="172" height="52" rx="10" fill="#ecfeff" stroke="#a5f3fc"/>
+  <text x="520" y="197" font-size="13" font-weight="700" fill="#0e7490" text-anchor="middle">New task B</text>
+  <rect x="434" y="228" width="172" height="52" rx="10" fill="#ecfeff" stroke="#a5f3fc"/>
+  <text x="520" y="259" font-size="13" font-weight="700" fill="#0e7490" text-anchor="middle">New domain C</text>
+
+  <text x="320" y="330" font-size="12" fill="#6b7280" text-anchor="middle">No-learning / lightweight adaptation · no large target-domain training set required</text>
+</svg>

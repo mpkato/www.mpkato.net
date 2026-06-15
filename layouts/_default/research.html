@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="page">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+  </header>
+  {{ with .Params.intro }}
+  <p class="page-intro">{{ . }}</p>
+  {{ end }}
+
+  {{ $ongoing := where .Params.projects "status" "ongoing" }}
+  {{ $past := where .Params.projects "status" "past" }}
+
+  {{ with $ongoing }}
+  {{ range . }}{{ partial "project-card.html" . }}{{ end }}
+  {{ end }}
+
+  {{ with $past }}
+  {{ if $ongoing }}<hr class="project-divider">{{ end }}
+  {{ range . }}{{ partial "project-card.html" . }}{{ end }}
+  {{ end }}
+
+  {{ with .Content }}
+  <div class="prose">{{ . }}</div>
+  {{ end }}
+</article>
+{{ end }}

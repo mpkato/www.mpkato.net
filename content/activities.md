@@ -2,9 +2,9 @@
 title: "Activities"
 ---
 
-# Activities
-
 ## Organization
+- SIGIR-AP 2026 PC Chair
+- CIKM 2026 Short Paper Co-chair
 - WSDM 2026 Workshop Co-chair
 - NTCIR-19 Task Organizer (ModelRetrieval Task)
 - SIGIR-AP 2025 Workshop Chair
@@ -61,8 +61,15 @@ title: "Activities"
 - ACM Transactions on Information Systems (Associate Editor) 2025 - 
 - Information Retrieval Journal 2016 - 2023
 
-## Keynotes
-- ROCLING 2022 Keynote: Matching Texts with Data for Evidence-based Information Retrieval
+## Invited Talks
+- [IPSJ Continuing Seminar 2026](https://www.ipsj.or.jp/event/seminar/2026/program02.html) "AI Spreading into the Real World," 2nd session on LLM Hallucination — Invited talk "RAG as a Countermeasure for Hallucination" (Jun 2026)
+- [89th NII Cyber Symposium](https://edx.nii.ac.jp/lecture/20250612-02) on Online Education and Digital Transformation in Universities — "Information Retrieval Technology in the AI Era" (Jun 2026)
+- [JST/CRDS Symposium Series](https://www.jst.go.jp/crds/sympo/20251023/index.html) "Trust Research Across Diverse Fields," 8th session — "Hallucination Mitigation via Retrieval-Augmented Generation (RAG): In Light of Recent Advances in IR Algorithms" (Oct 2025)
+- [Saikyo DB Lecture #35](https://dblectures.connpass.com/event/333863/) — "Retrieval Models based on Large Language Models" (Nov 2024)
+- [DEIM 2024 Tutorial](https://pub.confit.atlas.jp/ja/event/deim2024/content/tutorial) — "Retrieval Models based on Large Language Models" (with Kenya Abe and Kota Usuha, Mar 2024)
+- [WebDB Summer Workshop 2023](https://db-event.jpn.org/webdbw2023/invited-talk/), Early-Career Invited Talk — "Statistical Data Search" (Sep 2023)
+- [Digital Archive Japan, Industry & Data/Content SIG, 3rd DA Short Talk](https://digitalarchivejapan.org/9072/) — "A Data Search Engine for Open Data Utilization" (Jul 2022)
+- ROCLING 2022 Keynote — Matching Texts with Data for Evidence-based Information Retrieval
 
 ## Internships
 - Jun 2011 - Sep 2011: Microsoft Research Internship (under supervision by Dr. Susan Dumais in CLUES group)
