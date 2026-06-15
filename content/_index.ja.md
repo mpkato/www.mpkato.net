@@ -25,18 +25,18 @@ affiliations:
   - name: "国立情報学研究所 情報社会相関研究系"
     url: "https://www.nii.ac.jp/"
 highlights:
-  - title: "情報検索研究"
+  - title: "研究分野"
     text: >
-      検索アルゴリズム，評価，ユーザ検索行動を中心に15年以上研究に従事．SIGIR・WWW・WSDM・CIKM・ECIRなどの国際会議で成果を発表．
+      情報検索（検索アルゴリズム，評価，ユーザ検索行動）を中心に研究しています．近年はデータ検索や，研究者の情報探索を支援するクライアントサイド情報検索にも取り組んでいます．
+  - title: "NTCIR"
+    text: >
+      アジアの情報アクセス評価フォーラムNTCIRに長く携わり，プログラム委員長・総合委員長などを務めてきました．
+  - title: "コミュニティへの貢献"
+    text: >
+      SIGIR 2023・SIGIR-AP 2026のPC Co-chair，ACM Transactions on Information SystemsおよびInformation Retrieval Research Journalの編集委員を務めています．
   - title: "受賞"
     text: >
-      ACM Multimedia 2018 Best Paper Award，WISE 2008 Kambayashi Best Paper Award，上林奨励賞など国内外で多数受賞．
-  - title: "学術コミュニティへの貢献"
-    text: >
-      SIGIR 2023 PC Co-chair，NTCIR-16〜19 General Co-chair，ACM Transactions on Information Systems の Associate Editor などを歴任．
-  - title: "研究プロジェクト"
-    text: >
-      JSTさきがけ「オープンデータ利活用のためのデータ検索エンジンの構築」「研究開発のためのクライアントサイド情報検索技術」などの研究課題を推進．
+      ACM Multimedia 2018 Best Paper Award，WISE 2008 Kambayashi Best Paper Award．
 employment:
   - period: "2025年4月～"
     role: "准教授"

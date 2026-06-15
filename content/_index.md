@@ -28,23 +28,24 @@ affiliations:
   - name: "Information and Society Research Division, National Institute of Informatics"
     url: "https://www.nii.ac.jp/"
 highlights:
-  - title: "Information Retrieval Research"
+  - title: "Research Focus"
     text: >
-      Over 15 years of research on retrieval algorithms, evaluation, and user
-      search behavior, published at venues such as SIGIR, WWW, WSDM, CIKM, and
-      ECIR.
-  - title: "Best Paper Awards"
+      Information retrieval — retrieval algorithms, evaluation, and user search
+      behavior — with more recent work on data search and client-side
+      information retrieval for supporting researchers' information seeking.
+  - title: "NTCIR"
+    text: >
+      A long-standing contributor to NTCIR, an information-access evaluation
+      forum in Asia, including roles as Program Chair and General Chair.
+  - title: "Community Service"
+    text: >
+      PC Co-chair of SIGIR 2023 and SIGIR-AP 2026, and editorial roles for ACM
+      Transactions on Information Systems and the Information Retrieval Research
+      Journal.
+  - title: "Awards"
     text: >
       ACM Multimedia 2018 Best Paper Award and WISE 2008 Kambayashi Best Paper
       Award.
-  - title: "Community Leadership"
-    text: >
-      SIGIR 2023 PC Co-chair, NTCIR-16–19 General Co-chair, and Associate
-      Editor of ACM Transactions on Information Systems.
-  - title: "Research Projects"
-    text: >
-      JST PRESTO projects on data search engines for open data (2018–2022) and
-      client-side information retrieval for research activities (2025–).
 employment:
   - period: "Apr 2025 –"
     role: "Associate Professor"
