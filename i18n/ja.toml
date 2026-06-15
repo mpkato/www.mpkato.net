@@ -33,3 +33,9 @@ other = "詳細を見る"
 
 [searchHint]
 other = "研究トピック"
+
+[ongoingProjects]
+other = "継続中のテーマ"
+
+[pastProjects]
+other = "終了したテーマ"

@@ -7,41 +7,21 @@
   <p class="page-intro">{{ . }}</p>
   {{ end }}
 
-  {{ range .Params.projects }}
-  <section class="project" id="{{ .id }}">
-    <h2>{{ if .link }}<a href="{{ .link | relLangURL }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h2>
-    <div class="project-meta">
-      <span class="chip period">{{ .period }}</span>
-      {{ with .funding }}<span class="chip funding">{{ . }}</span>{{ end }}
-    </div>
-    {{ with .image }}
-    <div class="project-image"><img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy"></div>
-    {{ end }}
-    <p class="project-summary">{{ .summary }}</p>
-    {{ with .link }}
-    <a class="project-more" href="{{ . | relLangURL }}">{{ i18n "readMore" }} &rarr;</a>
-    {{ end }}
-    {{ with .publications }}
-    <h3>{{ i18n "relatedPublications" }}</h3>
-    <ol class="result-list">
-      {{ range . }}
-      <li>{{ . | markdownify }}</li>
-      {{ end }}
-    </ol>
-    {{ end }}
-    {{ with .resources }}
-    <h3>{{ i18n "relatedResources" }}</h3>
-    <ol class="result-list">
-      {{ range . }}
-      <li>{{ . | markdownify }}</li>
-      {{ end }}
-    </ol>
-    {{ end }}
-  </section>
+  {{ $ongoing := where .Params.projects "status" "ongoing" }}
+  {{ $past := where .Params.projects "status" "past" }}
+
+  {{ with $ongoing }}
+  <h2 class="project-group">{{ i18n "ongoingProjects" }}</h2>
+  {{ range . }}{{ partial "project-card.html" . }}{{ end }}
   {{ end }}
 
-  <div class="prose">
-    {{ .Content }}
-  </div>
+  {{ with $past }}
+  <h2 class="project-group project-group--past">{{ i18n "pastProjects" }}</h2>
+  {{ range . }}{{ partial "project-card.html" . }}{{ end }}
+  {{ end }}
+
+  {{ with .Content }}
+  <div class="prose">{{ . }}</div>
+  {{ end }}
 </article>
 {{ end }}

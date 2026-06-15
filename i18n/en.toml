@@ -33,3 +33,9 @@ other = "Read more"
 
 [searchHint]
 other = "Research topics"
+
+[ongoingProjects]
+other = "Ongoing"
+
+[pastProjects]
+other = "Concluded"

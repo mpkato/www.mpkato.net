@@ -7,6 +7,8 @@ A full publication list is available on [Google Scholar](https://scholar.google.
 
 ## Selected Publications
 
+- **SIGIR 2026** Haruki Fujimaki, Makoto P. Kato: NumColBERT: Non-Intrusive Numeracy Injection for Late-Interaction Retrieval Models. To appear in Proc. of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2026).
+- **SIGIR-AP 2025** Yuto Nakachi, Makoto P. Kato: Impact of LLM-Modified Queries and Documents in Training Data on Neural Retrieval Models. In Proc. of the 2025 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region (SIGIR-AP 2025), pp. 364-373, 2025.
 - **WebSci 2023** Yuki Yanagida, Makoto P. Kato, Yuka Kawada, Takehiro Yamamoto, Hiroaki Ohshima, Sumio Fujita: What Web Search Behaviors Lead to Online Purchase Satisfaction? In Proc. of the 15th ACM Web Science Conference 2023 (WebSci 2023), pp. 324-34, 2023.
 - **ECIR 2023** Kojiro Iizuka, Hajime Morita, Makoto P. Kato: Theoretical Analysis on the Efficiency of Interleaved Comparisons. In Proc. of the 45th European Conference on IR Research (ECIR 2023), pp. 459-473, 2023.
 - **DSE 2022** Atsuki Maruta, Makoto P. Kato: Intent‑Aware Data Visualization Recommendation. Data Science and Engineering, 2022.
