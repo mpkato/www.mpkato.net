@@ -72,6 +72,13 @@ title: "活動"
   - [MSRA University Relations Blog](http://msraurjp.wordpress.com/2011/09/06/msr-intern-redmond%EF%BC%88%E6%BB%9E%E5%9C%A8%E4%B8%AD%EF%BC%89%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B%EF%BC%88%E7%AC%AC22%E5%9B%9E%EF%BC%89/)
 
 ## 対外発表
+- [情報処理学会 連続セミナー2026「実世界に広がるAI：情報技術の融合と社会展開」第2回「LLMハルシネーション ～その原因と対策～」](https://www.ipsj.or.jp/event/seminar/2026/program02.html) 招待講演「ハルシネーション対策としてのRAG」（2026年6月）
+- [第89回 大学等におけるオンライン教育とデジタル変革に関するサイバーシンポジウム](https://edx.nii.ac.jp/lecture/20250612-02) 講演「AI時代の情報検索技術」（2026年6月）
+- [JST/CRDS 連続シンポジウム「様々な分野に広がるトラスト研究：総合知による取り組みへ」第8回「AIシステムの正確性の問題：ハルシネーション対策と説明可能AI」](https://www.jst.go.jp/crds/sympo/20251023/index.html) 講演「検索拡張生成（RAG）によるハルシネーション対策 ―情報検索アルゴリズムの近年の発展を踏まえて―」（2025年10月）
+- [最強DB講義 #35](https://dblectures.connpass.com/event/333863/) 「大規模言語モデルに基づく検索モデル」（2024年11月）
+- [DEIM 2024 チュートリアル](https://pub.confit.atlas.jp/ja/event/deim2024/content/tutorial) 「大規模言語モデルに基づく検索モデル」（加藤 誠，阿部 健也，薄羽 皐太，2024年3月）
+- [WebDB夏のワークショップ2023 若手招待講演](https://db-event.jpn.org/webdbw2023/invited-talk/) 「統計データ検索」（2023年9月）
+- [デジタルアーカイブ学会 産業とデータ・コンテンツ部会 第3回DAショートトーク](https://digitalarchivejapan.org/9072/) 「オープンデータ利活用のためのデータ検索エンジン」（2022年7月）
 - ROCLING 2022 Keynote: Matching Texts with Data for Evidence-based Information Retrieval
 - FIT 2016 チュートリアル「検索評価ツールキットNTCIREVALを用いた様々な情報アクセス技術の評価方法」
 - ARG 第６回Webインテリジェンスとインタラクション研究会 招待講演「情報検索のためのユーザモデル」
