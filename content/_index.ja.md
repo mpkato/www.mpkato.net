@@ -124,5 +124,3 @@ contact:
   address: "〒305-8550　茨城県つくば市春日1-2 7D棟308"
   email: "mpkato at-mark acm.org"
 ---
-
-<script src="https://embed.small.chat/T02T2BUPJG8KVD05C6.js" async></script>

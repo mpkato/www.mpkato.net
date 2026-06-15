@@ -92,5 +92,3 @@ contact:
   address: "7D 308, 1-2, Kasuga, Tsukuba, Ibaraki, 305-8550, Japan"
   email: "mpkato at-mark slis.tsukuba.ac.jp"
 ---
-
-<script src="https://embed.small.chat/T02T2BUPJG8KVD05C6.js" async></script>
