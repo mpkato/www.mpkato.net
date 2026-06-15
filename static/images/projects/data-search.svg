@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#4f46e5"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="640" height="380" rx="16" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="6" rx="3" fill="url(#g)"/>
+  <text x="32" y="48" font-size="20" font-weight="700" fill="#1f2937">Data Search</text>
+  <text x="32" y="72" font-size="13" fill="#6b7280">A search engine that makes the world's open data findable</text>
+
+  <!-- open datasets -->
+  <text x="92" y="116" font-size="12" font-weight="700" fill="#4f46e5" text-anchor="middle">Open datasets</text>
+  <g stroke="#c7d2fe" fill="#eef2ff">
+    <rect x="34" y="128" width="116" height="30" rx="5"/>
+    <rect x="46" y="160" width="116" height="30" rx="5"/>
+    <rect x="34" y="192" width="116" height="30" rx="5"/>
+    <rect x="46" y="224" width="116" height="30" rx="5"/>
+  </g>
+  <g fill="#4f46e5" font-size="11">
+    <text x="48" y="148">table.csv</text>
+    <text x="60" y="180">stats.json</text>
+    <text x="48" y="212">census.csv</text>
+    <text x="60" y="244">prices.csv</text>
+  </g>
+  <line x1="168" y1="190" x2="214" y2="190" stroke="#4f46e5" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- index by analyzing data -->
+  <rect x="218" y="150" width="150" height="80" rx="14" fill="url(#g)"/>
+  <text x="293" y="184" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Index built by</text>
+  <text x="293" y="203" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">data analysis</text>
+
+  <!-- query -->
+  <rect x="410" y="96" width="200" height="40" rx="20" fill="#fff" stroke="#cbd5e1"/>
+  <circle cx="432" cy="116" r="7" fill="none" stroke="#0891b2" stroke-width="2"/>
+  <line x1="437" y1="121" x2="443" y2="127" stroke="#0891b2" stroke-width="2"/>
+  <text x="452" y="121" font-size="12" fill="#475569">"cities where prices rose"</text>
+  <line x1="470" y1="136" x2="430" y2="168" stroke="#4f46e5" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="368" y1="180" x2="410" y2="200" stroke="#4f46e5" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- ranked datasets -->
+  <text x="520" y="180" font-size="12" font-weight="700" fill="#0e7490" text-anchor="middle">Relevant datasets</text>
+  <g fill="#ecfeff" stroke="#a5f3fc">
+    <rect x="430" y="190" width="180" height="26" rx="5"/>
+    <rect x="430" y="222" width="180" height="26" rx="5"/>
+    <rect x="430" y="254" width="180" height="26" rx="5"/>
+  </g>
+  <g fill="#0e7490" font-size="11">
+    <text x="442" y="207">1.  housing-prices.csv</text>
+    <text x="442" y="239">2.  regional-cpi.json</text>
+    <text x="442" y="271">3.  population.csv</text>
+  </g>
+
+  <text x="320" y="330" font-size="12" fill="#6b7280" text-anchor="middle">Queries on what data implies · data summarization · supports data-driven decisions</text>
+</svg>
