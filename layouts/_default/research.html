@@ -11,12 +11,11 @@
   {{ $past := where .Params.projects "status" "past" }}
 
   {{ with $ongoing }}
-  <h2 class="project-group">{{ i18n "ongoingProjects" }}</h2>
   {{ range . }}{{ partial "project-card.html" . }}{{ end }}
   {{ end }}
 
   {{ with $past }}
-  <h2 class="project-group project-group--past">{{ i18n "pastProjects" }}</h2>
+  {{ if $ongoing }}<hr class="project-divider">{{ end }}
   {{ range . }}{{ partial "project-card.html" . }}{{ end }}
   {{ end }}
 
