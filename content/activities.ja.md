@@ -3,6 +3,8 @@ title: "活動"
 ---
 
 ## 委員等
+- SIGIR-AP 2026 PC Chair
+- CIKM 2026 Short Paper Co-chair
 - WSDM 2026 Workshop Co-chair
 - NTCIR-19 Task Organizer (ModelRetrieval Task)
 - SIGIR-AP 2025 Workshop Chair
